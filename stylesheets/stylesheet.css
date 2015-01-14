@@ -456,7 +456,7 @@ header {
 }
 
 header h1 {
-  width: 540px;
+  width: 75%;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -781,7 +781,7 @@ footer a:hover {
   .inner {
     width: 740px;
   }
-  header h1, header h2 {
+  header h2 {
     width: 340px;
   }
   header h1 {
