@@ -20,6 +20,18 @@ body {
   margin: 0;
 }
 
+
+#mapiframe{
+  
+  max-width:600px;
+  height:450px;
+  width:90%;
+}
+#locateushide,#locateus
+{
+  cursor: pointer;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
