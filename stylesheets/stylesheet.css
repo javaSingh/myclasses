@@ -20,6 +20,11 @@ body {
   margin: 0;
 }
 
+a:hover
+{
+  text-anchor: none;
+}
+
 
 #mapiframe{
   
@@ -31,6 +36,23 @@ body {
 {
   cursor: pointer;
 }
+
+#mytext
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+	font-family: MuseoSans,serif;
+    color: #000000;
+	font-size: 20px;
+	padding: 0;
+}
+
+
+.myrow
+{
+  margin-top: 10px;
+}
+
 
 /* HTML5 display definitions
    ========================================================================== */
