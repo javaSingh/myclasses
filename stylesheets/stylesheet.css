@@ -20,17 +20,58 @@ body {
   margin: 0;
 }
 
+.innerp{
+  color:white;
+}
+
+.mybutton {
+  border: none;
+  width:80%;
+  margin-left: 10%;
+  background-color:rgba(255, 180, 0, 0.94);
+  height:30px;
+}
+
+.fly .navbar-toggle
+{
+  background-color: #02FF31;
+  right: -10px;
+  transparent
+}
+.fly:hover{
+  opacity: 1.0;
+}
+
+.fly{
+  position: absolute;
+  z-index: 100;
+  top: -7px;
+  left: 55%;
+  opacity: .3;
+}
+
 a:hover
 {
   text-anchor: none;
 }
-
+a.myhead{
+  color: white;
+ 
+  
+}
+a.myhead:hover{
+ color: white; 
+}
+a.myhead:link{
+  text-decoration: none;
+}
 
 #mapiframe{
   
   max-width:600px;
   height:450px;
-  width:90%;
+  width:100%;
+  margin-left: auto;
 }
 #locateushide,#locateus
 {
@@ -520,7 +561,7 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
-  margin: 0 auto;
+  margin-left:7%; 
 }
 
 #content-wrapper {
